@@ -45,7 +45,7 @@ function initRenderer() {
         // 是否执行抗锯齿。默认为false.
         antialias: true,
         // canvas是否包含alpha (透明度)。默认为 false
-        // alpha: true
+        alpha: true
     })
     renderer.setSize(container.clientWidth, container.clientHeight)
     // 设置设备像素比。通常用于避免HiDPI设备上绘图模
