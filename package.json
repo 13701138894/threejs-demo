@@ -8,6 +8,7 @@
     "dev:earth_bezier": "webpack-dev-server --config webpack_config/webpack_earth_bezier.js",
     "dev:solar_system": "webpack-dev-server --config webpack_config/webpack_solar_system.js",
     "dev:Kaleidoscope": "webpack-dev-server --config webpack_config/webpack_Kaleidoscope.js",
+    "dev:rocket_up": "webpack-dev-server --config webpack_config/webpack_rocket_up.js",
     "build": "webpack"
   },
   "keywords": [],
