@@ -3,7 +3,6 @@ import './scss/style.scss'
 import { debounce } from "./utils/tools";
 import * as THREE from 'three'
 import Stats from 'three/examples/jsm/libs/stats.module'
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { SVGLoader } from "three/examples/jsm/loaders/SVGLoader";
 
@@ -23,8 +22,6 @@ window.onload = function() {
     initRenderer()
     initLight()
     initStats()
-    // initControls()
-    // initHelper()
 
     initObject()
 
@@ -75,15 +72,6 @@ function initStats(){
     stats.domElement.style.left = '10px'
     stats.domElement.style.top = '10px'
     container.appendChild(stats.domElement)
-}
-
-function initControls() {
-    controls = new OrbitControls(camera,renderer.domElement)
-}
-
-function initHelper(){
-    let axesHelper = new THREE.AxesHelper(500)
-    scene.add(axesHelper)
 }
 
 function animate() {

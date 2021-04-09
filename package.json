@@ -9,6 +9,7 @@
     "dev:solar_system": "webpack-dev-server --config webpack_config/webpack_solar_system.js",
     "dev:Kaleidoscope": "webpack-dev-server --config webpack_config/webpack_Kaleidoscope.js",
     "dev:rocket_up": "webpack-dev-server --config webpack_config/webpack_rocket_up.js",
+    "dev:love_balloon": "webpack-dev-server --config webpack_config/webpack_love_balloon.js",
     "build": "webpack"
   },
   "keywords": [],
