@@ -13,6 +13,7 @@
     "dev:point_line_3D_space": "webpack-dev-server --config webpack_config/webpack_point_line_3D_space.js",
     "dev:shuttle": "webpack-dev-server --config webpack_config/webpack_shuttle.js",
     "dev:night_sky": "webpack-dev-server --config webpack_config/webpack_night_sky.js",
+    "dev:gift_box_explodes": "webpack-dev-server --config webpack_config/webpack_gift_box_explodes.js",
     "build": "webpack"
   },
   "keywords": [],
