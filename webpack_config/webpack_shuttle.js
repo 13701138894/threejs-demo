@@ -3,5 +3,5 @@ let { merge } = require('webpack-merge')
 let base = require('../webpack.base')
 
 module.exports = merge(base,{
-    entry: './src/solar_system.js'
+    entry: './src/shuttle.js'
 })
