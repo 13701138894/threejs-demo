@@ -12,6 +12,7 @@
     "dev:love_balloon": "webpack-dev-server --config webpack_config/webpack_love_balloon.js",
     "dev:point_line_3D_space": "webpack-dev-server --config webpack_config/webpack_point_line_3D_space.js",
     "dev:shuttle": "webpack-dev-server --config webpack_config/webpack_shuttle.js",
+    "dev:night_sky": "webpack-dev-server --config webpack_config/webpack_night_sky.js",
     "build": "webpack"
   },
   "keywords": [],
